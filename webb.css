@@ -1,0 +1,62 @@
+/*مخطط الصفحه */
+.header {
+  background-color: rgb(230, 255, 255);
+  padding: 20px;
+  text-align: center;}
+
+
+
+
+
+/*background*/
+body{
+  padding: 90px 90px;
+  background-color: rgb(213, 246, 246);
+  background-repeat: repeat;
+  /*background-size: 1440px 820px;*/
+  background-attachment: scroll;
+
+}
+
+
+
+
+/* navigation bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  background-color: #e9967a;/*لون البار*/}
+li {  float:left;}
+li a {
+  display:block;/*شكل الشريط*/
+  color: white;/*لون الخط*/
+  font-size: 40px;
+  padding: 14px 16px;
+  /*عرض الشريط*/
+/*  text-align:center;
+text-decoration:none; */}
+li a:hover {
+background-color: #f4cbbd;/*لون التحديد على البار*/}
+
+
+
+
+
+
+
+/*Animation photo */
+
+#myDIV {
+  width: 1000px;  height: 1000px; background-repeat: no-repeat;  
+  -webkit-animation: mymove 5s infinite;
+  animation: mymove 5s infinite;}/*كل خمس ثواني تتغير الصورة */
+@-webkit-keyframes mymove {
+  from {background-image: url("sww.jpg");}
+  to {background-image:url("meat.jpg") ;}
+}
+@keyframes mymove {
+  from {background-image:url("sww.jpg") ;}
+  to {background-image: url("meat.jpg");}
+}
