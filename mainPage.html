@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> maine</title>
+  <link rel="stylesheet" href="webb.css">
+  <style> </style>
+  <meta charset="utf-8"/>
+  </head>
+
+
+
+  <body>
+  <div class="header">
+    <img src="herBuraidah.jpg" alt="hgf" width="137" height="137">
+  </div>
+
+
+
+
+<!--navigation bar -->
+<!-- ========================================================= -->
+<ul id="nav">
+<div class="topnav">
+
+<li>
+<div class="dropdown">
+<button class="dropbtn">المطاعم</button>
+<div class="dropdown-content">
+<a href="#">قونيش</a>
+<a href="#">انديك</a>
+<a href="#">Link 3</a>
+</div>
+</div>
+</li>
+
+
+
+
+<li>
+<div class="dropdown">
+<button class="dropbtn">الكوفيهات</button>
+<div class="dropdown-content">
+<a href="#">ccccc</a>
+<a href="#">Link 2</a>
+<a href="#">Link 3</a>
+</div>
+</div>
+</li>
+
+<li>
+<div class="dropdown">
+<button class="dropbtn">الحلويات</button>
+<div class="dropdown-content">
+<a href="#">ssss</a>
+<a href="#">Link 2</a>
+<a href="#">Link 3</a>
+</div>
+</div>
+</li>
+
+
+
+<li>
+<div class="dropdown">
+<button class="dropbtn">تقديمات الحلويات</button>
+<div class="dropdown-content">
+<a href="#">rrrr</a>
+<a href="#">Link 2</a>
+<a href="#">Link 3</a>
+</div>
+</div>
+</li>
+
+
+
+
+<li>
+<div class="dropdown">
+<button class="dropbtn"> تقديمات الموالح</button>
+<div class="dropdown-content">
+<a href="#">rrrr</a>
+<a href="#">Link 2</a>
+<a href="#">Link 3</a>
+</div>
+</div>
+</li>
+
+
+
+</div>
+</ul>
+
+
+
+<!-- محتوى الصفحه-->
+  <div class="row">
+    <div class="column side">
+      <h2>Side</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+    </div>
+<!-- ========================================================= -->
+    <div class="column middle">
+      <h1>                  </h1>
+
+
+      <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="ch.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="meat.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="coo.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+      </script>
+<!-- ========================================================= -->
+
+      </div>
+
+    <div class="column side">
+      <h2>Side</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+    </div>
+  </div>
+
+  </body>
+  </html>
