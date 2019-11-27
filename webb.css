@@ -24,8 +24,8 @@ body{
  .dropbtn {
    background-color: #FAEBD7;
    color: black;
-   padding: 16px;/* حجم البتن*/
-   font-size: 20px;
+   padding: 12px 2px 2px 12px;/* حجم البتن*/
+   font-size: 25px;
    border: none;}
 
 
@@ -54,13 +54,13 @@ body{
 
 
  ul { list-style-type: none; /* اشيل ستايل التعداد النقطي*/   margin: 0;padding: 0;}
- .topnav { padding:53px;/* حجم البار*/  position: relative; /*overflow: hidden;*/  background-color: #FAEBD7; } /* عشان اعبي الفراغات الي يمين و يسار البار*/
- .topnav a {  padding: 10px; /* حجم البتن و القائمة النسدلة*/   font-size: 17px;}
+ /*.topnav { padding:65px;/* حجم البار*/  /*position: relative; /*overflow: hidden;*/  /*background-color: #FAEBD7; } /* عشان اعبي الفراغات الي يمين و يسار البار*/
+ .topnav a {  padding: 20px; /* حجم البتن و القائمة النسدلة*/   font-size: 17px;}
  .topnav a.active {   background-color: #FAEBD7;/* خلفيه البار*/   color: black;}/* لون خط البار*/
 
         /* انشأت اي دي عشان احط البار بالوسط*/
         /*https://www.websitecodetutorials.com/code/css/css-center-nav.php */
-      #nav {  width:750px;/* اتحكم بأتجاه البار*/    margin:0 auto;}
+      #nav {  width:900px;/* اتحكم بأتجاه البار*/ padding:65px;   margin: 0 auto;}
       #nav li { float:right;/* اتجاه الاسماء يبدا من اليمين */}
       #nav a {  display:block;  text-align:center;    width:150px; /* fixed width */  text-decoration:none;}
 
@@ -68,18 +68,20 @@ body{
 
 
 
+
+
 /* سلايدات */
 
  /*-----------------------------------------------------------------------------*/
  /* https://www.w3schools.com/howto/howto_js_slideshow.asp*/
- * {box-sizing: border-box;}
+ /** {box-sizing: border-box;}*/
  body {font-family: Verdana, sans-serif;}
  .mySlides {display: none;}
  img {vertical-align: middle;}
 
  /* Slideshow container */
  .slideshow-container {
-   max-width: 700px;/* حجم المربع */
+   max-width: 600px;/* حجم المربع */
    position: relative;
    margin: auto;
  }
