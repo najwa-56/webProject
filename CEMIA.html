@@ -10,10 +10,9 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
+  max-width:1000px;
+  position:relative;
+  margin: auto;}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -133,10 +132,198 @@ font-family: 'Amiri', serif;
   text-align: center;
 font-family: 'Amiri', serif;
 }
+
+/*---------------------------------najwa-------------------------------------------- */
+
+.header {
+  background-color: #FAEBD7;
+  padding-left: 0px;
+  padding-top:0px;
+  text-align: right;}
+
+/*background*/
+body{
+  padding: 1px;
+    margin: 0;
+  background-color: #fff2e6;/* لون خلفيه الصفحه*/
+ background-repeat: repeat;
+ background-attachment: scroll;}
+
+
+
+ /* navigation bar*/
+ /*-----------------------------------------------------------------------------*/
+
+ /* https://www.w3schools.com/css/css_dropdowns.asp*/ /* الى السطر٥٣*/
+ .dropbtn {
+   background-color: #FAEBD7;
+   color: black;
+   padding: 12px 2px 2px 12px;/* حجم البتن*/
+   font-size: 25px;
+   border: none;
+
+ }
+
+
+ .dropdown {
+   position: relative;
+   display: inline-block;}
+
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 30px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+
+ .dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;}
+
+ .dropdown-content a:hover { background-color: #f1f1f1;
+
+ }
+ .dropdown:hover .dropdown-content {display: block;}
+ .dropdown:hover .dropbtn {/*background-color: white;*/
+   background: rgb(0, 0, 0); /* Fallback color */
+   background: rgba(0, 0, 0, 0.2); /* Black background with 0.5 opacity */
+
+ }
+
+
+ ul { list-style-type: none; /* اشيل ستايل التعداد النقطي*/   margin: 0;padding: 0;}
+ /*.topnav { padding:65px;/* حجم البار*/  /*position: relative; /*overflow: hidden;*/  /*background-color: #FAEBD7; } /* عشان اعبي الفراغات الي يمين و يسار البار*/
+
+ .topnav a {  padding: 20px; /* حجم البتن و القائمة النسدلة*/   font-size: 17px;}
+ .topnav a.active {   background-color: #FAEBD7;/* خلفيه البار*/   color: black;}/* لون خط البار*/
+
+        /* انشأت اي دي عشان احط البار بالوسط*/
+        /*https://www.websitecodetutorials.com/code/css/css-center-nav.php */
+      #nav {  width:900px;/* اتحكم بأتجاه البار*/ padding:65px;   margin: 0 auto;}
+      #nav li { float:right;/* اتجاه الاسماء يبدا من اليمين */}
+      #nav a {  display:block;  text-align:center;    width:150px; /* fixed width */  text-decoration:none;}
+
+
+
+/*add footer */
+      .footer {
+      background-color: #FAEBD7;
+      padding: 20px;
+      text-align: center;}
+ /*---------------------------------najwa--------------------------------------------*/
+
 </style>
 <meta charset="utf-8"/>
 </head>
+
+
+
+
+
+
 <body>
+
+  <div class="header"> <!--  مخطط الصفحه -->
+ <img  src="img/herBuraidah.jpg" alt="hgf" width="140" height="140">
+
+
+
+
+  <!--navigation bar -->
+  <!-- ========================================================= -->
+
+  <ul id="nav" class="topnav">
+
+
+    <li>
+   <div class="dropdown">
+   <button class="dropbtn">الرئيسية</button>
+   <div class="dropdown-content">
+   <a href="#">قونيش</a>
+   <a href="#">انديك</a>
+   <a href="ayden.html">ايدن</a>
+   </div>
+   </div>
+   </li>
+
+
+
+   <li>
+  <div class="dropdown">
+  <button class="dropbtn">المطاعم</button>
+  <div class="dropdown-content">
+  <a href="#">قونيش</a>
+  <a href="#">انديك</a>
+  <a href="ayden.html">ايدن</a>
+  </div>
+  </div>
+  </li>
+
+
+
+
+  <li>
+  <div class="dropdown">
+  <button class="dropbtn">الكوفيهات</button>
+  <div class="dropdown-content">
+  <a href="#">ccccc</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  </div>
+  </div>
+  </li>
+
+  <li>
+  <div class="dropdown">
+  <button class="dropbtn">الحلويات</button>
+  <div class="dropdown-content">
+  <a href="#">ssss</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  </div>
+  </div>
+  </li>
+
+
+
+  <li>
+  <div class="dropdown">
+  <button class="dropbtn">تقديمات الحلويات</button>
+  <div class="dropdown-content">
+  <a href="#">rrrr</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  </div>
+  </div>
+  </li>
+
+
+
+
+  <li>
+  <div class="dropdown">
+  <button class="dropbtn"> تقديمات الموالح</button>
+  <div class="dropdown-content">
+  <a href="#">rrrr</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  </div>
+  </div>
+  </li>
+
+
+
+  </ul>
+   </div>
+
+
+
+
+  <!-- ===========================================-->
   <div class=all>
     <h3>Cemia</h3>
       <div class="slideshow-container">
@@ -215,6 +402,10 @@ function fadeTo() {
 <img src="inst.jpg" alt="Location in Google Map" width="30" height="15">
 </a>
 </div>
+
+
+
+  <div class="footer"><p>Footer</p> </div>
 
 </body>
 </html>
