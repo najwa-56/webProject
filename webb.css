@@ -26,7 +26,9 @@ body{
    color: black;
    padding: 12px 2px 2px 12px;/* حجم البتن*/
    font-size: 25px;
-   border: none;}
+   border: none;
+
+ }
 
 
  .dropdown {
@@ -48,13 +50,20 @@ body{
    text-decoration: none;
    display: block;}
 
- .dropdown-content a:hover {background-color: #f1f1f1}
+ .dropdown-content a:hover { background-color: #f1f1f1;
+
+ }
  .dropdown:hover .dropdown-content {display: block;}
- .dropdown:hover .dropbtn {background-color: white;}
+ .dropdown:hover .dropbtn {/*background-color: white;*/
+   background: rgb(0, 0, 0); /* Fallback color */
+   background: rgba(0, 0, 0, 0.2); /* Black background with 0.5 opacity */
+
+ }
 
 
  ul { list-style-type: none; /* اشيل ستايل التعداد النقطي*/   margin: 0;padding: 0;}
  /*.topnav { padding:65px;/* حجم البار*/  /*position: relative; /*overflow: hidden;*/  /*background-color: #FAEBD7; } /* عشان اعبي الفراغات الي يمين و يسار البار*/
+
  .topnav a {  padding: 20px; /* حجم البتن و القائمة النسدلة*/   font-size: 17px;}
  .topnav a.active {   background-color: #FAEBD7;/* خلفيه البار*/   color: black;}/* لون خط البار*/
 
