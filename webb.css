@@ -1,7 +1,4 @@
 
-* {box-sizing: border-box;  }
-/* Style the header */
-
 
 .header {
   background-color: #FAEBD7;
@@ -96,7 +93,6 @@ body{
 
  /*-----------------------------------------------------------------------------*/
  /* https://www.w3schools.com/howto/howto_js_slideshow.asp*/
- /** {box-sizing: border-box;}*/
  body {font-family: Verdana, sans-serif;}
  .mySlides {display: none;}
  img {vertical-align: middle;}
@@ -210,9 +206,8 @@ body{
 
 
 
-
     /* ----------------------------------------الصندوق الي فيه الكلام ------------------*/
-    /* اخذ الرابط من هبه*/
+    /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_transparent_bottom*/
     * {box-sizing: border-box;}
 
     body {font-family: Arial;font-size: 17px;}
@@ -261,6 +256,8 @@ body{
 
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxhebbbbaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* https://www.w3schools.com/howto/howto_js_slideshow.asp*/
+
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
