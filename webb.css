@@ -1,8 +1,6 @@
 
 * {box-sizing: border-box;  }
 /* Style the header */
-
-
 .header {
   background-color: #FAEBD7;
   padding-left: 0px;
@@ -12,41 +10,37 @@
 /*background*/
 body{
   padding: 1px;
-    margin: 0;
+  margin: 0px;
   background-color: #fff2e6;/* لون خلفيه الصفحه*/
- background-repeat: repeat;
- background-attachment: scroll;}
+  /*background-repeat: repeat;*/
+  background-attachment: scroll;}
 
 
+/*https://codepen.io/nasser/pen/nqImC */
+.fontStyle{font-family:'Amiri', serif;}/* تعديل نوع الخط*/
 
-.fontStyle{
-  font-family:'Amiri', serif;
+/*------------------------- تقسيم محتوى الصفحه---------------------------------  */
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_grid2 */
 
-}
+    /* Create three unequal columns that floats next to each other */
+    .column {  float: left;  padding:3px;}
+    .column.side {width: 13%;}/* Left and right column */
+    .column.middle {  width: 70%;}/* Middle column */
+    .footer {background-color: #FAEBD7;  padding: 20px; text-align: center;}/*footer */
+/*------------------------------------------------------------------- */
 
-
- /* navigation bar*/
- /*-----------------------------------------------------------------------------*/
+ /*---------------------------------navigation bar--------------------------------------------*/
 
  /* https://www.w3schools.com/css/css_dropdowns.asp*/ /* الى السطر٥٣*/
 
-
-
-
-
  .dropbtn {
    background-color: #FAEBD7;
-   color: black;
-   padding: 12px 2px 2px 12px;/* حجم البتن*/
-   font-size: 20px;
-   border: none;
+    border: none; padding: 12px 2px 2px 12px;/* حجم البتن*/
+   font-size: 20px; color: black;
 
- }
+   }
 
-
- .dropdown {
-   position: relative;
-   display: inline-block;}
+ .dropdown {position: relative;  display: inline-block;}
 
  .dropdown-content {
    display: none;
@@ -54,8 +48,7 @@ body{
    background-color: #f9f9f9;
    min-width: 30px;
    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   z-index: 1;
- }
+   z-index: 1;}
 
  .dropdown-content a {
    color: black;
@@ -63,9 +56,8 @@ body{
    text-decoration: none;
    display: block;}
 
- .dropdown-content a:hover { background-color: #f1f1f1;
+ .dropdown-content a:hover { background-color: #f1f1f1;}
 
- }
  .dropdown:hover .dropdown-content {display: block;}
  .dropdown:hover .dropbtn {/*background-color: white;*/
    background: rgb(0, 0, 0); /* Fallback color */
@@ -88,13 +80,7 @@ body{
 
  /*-----------------------------------------------------------------------------*/
 
-
-
-
-
-/* سلايدات */
-
- /*-----------------------------------------------------------------------------*/
+ /*-----------------------------------السلايدات------------------------------------------*/
  /* https://www.w3schools.com/howto/howto_js_slideshow.asp*/
  /** {box-sizing: border-box;}*/
  body {font-family: Verdana, sans-serif;}
@@ -167,94 +153,21 @@ body{
  }
 
 /*-----------------------------------------------------------------------------*/
-
-
-
-
-
-  /*-------------------------محتوى الصفحه---------------------------------  */
-  /*https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_grid2 */
-      /* Create three unequal columns that floats next to each other */
-      .column {  float: left;  padding:5px;}
-
-      /* Left and right column */
-      .column.side {width: 13%;}
-
-      /* Middle column */
-      .column.middle {  width: 70%;}
-
-      /* Clear floats after the columns */
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-
-      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-      @media screen and (max-width: 600px) {
-        .column.side, .column.middle {
-          width: 100%;
-        }
-      }
-      .footer {
-  background-color: #FAEBD7;
-  padding: 20px;
-  text-align: center;}
-
-    /*----------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
     /* ----------------------------------------الصندوق الي فيه الكلام ------------------*/
     /* اخذ الرابط من هبه*/
-    * {box-sizing: border-box;}
-
-    body {font-family: Arial;font-size: 17px;}
-
+    /** {box-sizing: border-box;}*/
+     body {font-size: 17px;}
     .container { position: relative; max-width:900px ;/* حجم المربع*/margin: 0 auto;}
-
-
     .container img {vertical-align: middle;}
 
+
     .container .content {
-      position: absolute;
-      bottom: 0;
-      background: rgb(0, 0, 0); /* Fallback color */
+      position: absolute;    bottom: 0;
       background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-      color: #f1f1f1;
+      color: #f1f1f1;/* لون الخط*/
       width: 100%;
       padding: 20px;}
       /*------------------------------------------------------------------------ */
-
-
-
-
-/* هذا الكود ما احتاجة بس مخليته كذا */
-
-/*Animation photo */
-/* ---------------------------------------------------------*/
-
-#myDIV {
-  width: 1000px;  height: 1000px; background-repeat: no-repeat;
-  -webkit-animation: mymove 5s infinite;
-  animation: mymove 5s infinite;}/*كل خمس ثواني تتغير الصورة */
-@-webkit-keyframes mymove {
-  from {background-image: url("sww.jpg");}
-  to {background-image:url("meat.jpg") ;}
-}
-@keyframes mymove {
-  from {background-image:url("sww.jpg") ;}
-  to {background-image: url("meat.jpg");}
-}
-
-/* ----------------------------------------------------------*/
-
 
 
 
