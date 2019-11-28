@@ -1,10 +1,6 @@
 
-<<<<<<< HEAD
 * {box-sizing: border-box;  }
 /* Style the header */
-=======
-
->>>>>>> d9db65f4077848786dcf71a444bab1581d9083e7
 .header {
   background-color: #FAEBD7;
   padding-left: 0px;
@@ -156,12 +152,12 @@ body{
  }
 
 /*-----------------------------------------------------------------------------*/
-<<<<<<< HEAD
+
     /* ----------------------------------------الصندوق الي فيه الكلام ------------------*/
     /* اخذ الرابط من هبه*/
     /** {box-sizing: border-box;}*/
      body {font-size: 17px;}
-=======
+
 
 
 
@@ -211,7 +207,6 @@ body{
 
     body {font-family: Arial;font-size: 17px;}
 
->>>>>>> d9db65f4077848786dcf71a444bab1581d9083e7
     .container { position: relative; max-width:900px ;/* حجم المربع*/margin: 0 auto;}
     .container img {vertical-align: middle;}
 
