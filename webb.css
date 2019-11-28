@@ -1,6 +1,10 @@
 
+<<<<<<< HEAD
 * {box-sizing: border-box;  }
 /* Style the header */
+=======
+
+>>>>>>> d9db65f4077848786dcf71a444bab1581d9083e7
 .header {
   background-color: #FAEBD7;
   padding-left: 0px;
@@ -82,7 +86,6 @@ body{
 
  /*-----------------------------------السلايدات------------------------------------------*/
  /* https://www.w3schools.com/howto/howto_js_slideshow.asp*/
- /** {box-sizing: border-box;}*/
  body {font-family: Verdana, sans-serif;}
  .mySlides {display: none;}
  img {vertical-align: middle;}
@@ -153,10 +156,62 @@ body{
  }
 
 /*-----------------------------------------------------------------------------*/
+<<<<<<< HEAD
     /* ----------------------------------------الصندوق الي فيه الكلام ------------------*/
     /* اخذ الرابط من هبه*/
     /** {box-sizing: border-box;}*/
      body {font-size: 17px;}
+=======
+
+
+
+
+
+  /*-------------------------محتوى الصفحه---------------------------------  */
+  /*https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_grid2 */
+      /* Create three unequal columns that floats next to each other */
+      .column {  float: left;  padding:5px;}
+
+      /* Left and right column */
+      .column.side {width: 13%;}
+
+      /* Middle column */
+      .column.middle {  width: 70%;}
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column.side, .column.middle {
+          width: 100%;
+        }
+      }
+      .footer {
+  background-color: #FAEBD7;
+  padding: 20px;
+  text-align: center;}
+
+    /*----------------------------------------------------------- */
+
+
+
+
+
+
+
+
+    /* ----------------------------------------الصندوق الي فيه الكلام ------------------*/
+    /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_transparent_bottom*/
+    * {box-sizing: border-box;}
+
+    body {font-family: Arial;font-size: 17px;}
+
+>>>>>>> d9db65f4077848786dcf71a444bab1581d9083e7
     .container { position: relative; max-width:900px ;/* حجم المربع*/margin: 0 auto;}
     .container img {vertical-align: middle;}
 
@@ -174,6 +229,8 @@ body{
 
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxhebbbbaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* https://www.w3schools.com/howto/howto_js_slideshow.asp*/
+
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
