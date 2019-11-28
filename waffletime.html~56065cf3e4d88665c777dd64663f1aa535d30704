@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ab">
 <head>
-<title>balah </title>
+<title>waffle time </title>
 <link rel="stylesheet" href="webb.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style></style>
@@ -29,10 +29,6 @@
 
 
         <li ><a style="padding: 12px 2px 2px 12px;font-size:20px;color:black;" href="mainPage.html">الرئيسية</a> </li>
-
-
-
-
         <li>
         <div class="dropdown">
         <button class="dropbtn">المطاعم</button>
@@ -71,23 +67,10 @@
         <button class="dropbtn">الحلويات</button>
         <div class="dropdown-content">
         <a href="balah.html">البلح الذهبي</a>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <a href="Kooz Cake.html">كوزكيك</a>
-        <a href="cool donuts.html">كول دونتس</a>
-        <a href="Container Candy.html">كونتينر كاندي</a>
-        <a href="Hot chocolate.html">الشوكولاته الساخنة</a>
-=======
-=======
->>>>>>> 56065cf3e4d88665c777dd64663f1aa535d30704
         <a href="KoozCake.html">كوزكيك</a>
         <a href="cooldonuts.html">كول دونتس</a>
         <a href="ContainerCandy.html">كونتينر كاندي</a>
         <a href="Hotchocolate.html">الشوكولاته الساخنة</a>
-<<<<<<< HEAD
->>>>>>> 56065cf3e4d88665c777dd64663f1aa535d30704
-=======
->>>>>>> 56065cf3e4d88665c777dd64663f1aa535d30704
         <a href="ArtAlvalozj.html">فن الفالوذج</a>
 
         <a href="CEMIA.html">سيميا</a>
@@ -125,6 +108,8 @@
         </div>
         </li>
 
+
+
       </ul>
        </div>
 
@@ -134,22 +119,22 @@
 
   <!-- ===========================================-->
   <div class=all>
-    <h3>balah</h3>
+    <h3>waffle time</h3>
       <div class="slideshow-container">
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="img/bal1.jpg"  alt="phote of balah" style="width:100%">
+  <img src="img/tim1.jpg"  alt="photo of waffeltimee" style="width:100%">
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="img/bal2.jpg" alt="phote of balah" style="width:100%">
+  <img src="img/tim2.jpg"  alt="photo of waffeltimee" style="width:100%">
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="img/bal3.jpg"  alt="phote of balah" style="width:100%">
+  <img src="img/tim3.jpg"  alt="photo of waffeltimee" style="width:100%">
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -196,18 +181,18 @@ function fadeTo() {
  }
 </script>
 <div class="dis">
-  محل الحلويات البلح الذهبي
+  محل الحلويات وقت الوافل
  <br>
  .هناك بعض الأطباق التي يتميز بها معروضة في الأعلى
  <br>
 :للتواصل
 </div>
 <br>
-<a href="https://goo.gl/maps/DqFVFWEy9zf2yrdr5">
+<a href="https://goo.gl/maps/JpVXMs7EohiaZpyY6">
 <img src="lo.jpg" alt="Location in Google Map" width="30" height="15">
 </a>
 <br>
-<a href="https://instagram.com/balah_sa?igshid=12if2q3rtviqe">
+<a href="https://instagram.com/waffeltimee?igshid=jzbmhl6na02z">
 <img src="inst.jpg" alt="Location in Google Map" width="30" height="15">
 </a>
 </div>
