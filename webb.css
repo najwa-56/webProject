@@ -15,13 +15,8 @@ body{
   /*background-repeat: repeat;*/
   background-attachment: scroll;}
 
+h3{color:  #eeccaa;}
 
-
-
-
-h3{
-  color:  #eeccaa;
-}
 /*https://codepen.io/nasser/pen/nqImC */
 .fontStyle{font-family:'Amiri', serif;
 text-align:center;
@@ -88,47 +83,6 @@ font-size: 30px;
       #nav a {  display:block;  text-align:center;    width:150px; /* fixed width */  text-decoration:none;}
 
  /*-----------------------------------------------------------------------------*/
-
-
-
-
-
-  /*-------------------------محتوى الصفحه---------------------------------  */
-  /*https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_grid2 */
-      /* Create three unequal columns that floats next to each other */
-      .column {  float: left;  padding:5px;}
-
-      /* Left and right column */
-      .column.side {width: 13%;}
-
-      /* Middle column */
-      .column.middle {  width: 70%;}
-
-      /* Clear floats after the columns */
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-
-      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-      @media screen and (max-width: 600px) {
-        .column.side, .column.middle {
-          width: 100%;
-        }
-      }
-      .footer {
-  background-color: #FAEBD7;
-  padding: 20px;
-  text-align: center;}
-
-    /*----------------------------------------------------------- */
-
-
-
-
-
-
 
 
     /* ----------------------------------------الصندوق الي فيه الكلام ------------------*/
@@ -285,4 +239,6 @@ font-family:'Amiri', serif;
 
 
 /* مكان الايقونات*/
-.si{text-align: center;}
+.si{text-align: center;}/* ايقونات التواصل*/
+
+.lf{text-align: left; }/*ايقونه الفتر*/
