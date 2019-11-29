@@ -16,8 +16,16 @@ body{
   background-attachment: scroll;}
 
 
+
+
+
+h3{
+  color:  #eeccaa;
+}
 /*https://codepen.io/nasser/pen/nqImC */
-.fontStyle{font-family:'Amiri', serif;}/* تعديل نوع الخط*/
+.fontStyle{font-family:'Amiri', serif;
+text-align:center;
+}/* تعديل نوع الخط*/
 
 /*------------------------- تقسيم محتوى الصفحه---------------------------------  */
 /*https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_grid2 */
