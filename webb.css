@@ -20,7 +20,7 @@ h3{color:  #eeccaa;}
 /*https://codepen.io/nasser/pen/nqImC */
 .fontStyle{font-family:'Amiri', serif;
 text-align:center;
-font-size: 30px;
+font-size: 25px;
 }/* تعديل نوع الخط*/
 
 /*------------------------- تقسيم محتوى الصفحه---------------------------------  */
@@ -211,7 +211,7 @@ img {vertical-align: middle;}
    margin-right:160px;
    margin-left:160px;
  background-color: #FDF5E6;
-    height: 1700px;
+    height: 1900px;
     width: 980px;
   }
   h3{
