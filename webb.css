@@ -85,10 +85,6 @@ font-size: 25px;
 
     /* ----------------------------------------الصندوق الي فيه الكلام ------------------*/
     /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_transparent_bottom*/
-    
-
-     body {font-family: Arial;font-size: 17px;}/*هبه شوووووووووووووووووووووووووفي*/
-
     .container { position: relative; max-width:900px ;/* حجم المربع*/margin: 0 auto;}
     .container img {vertical-align: middle;}
 
