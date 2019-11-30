@@ -12,7 +12,6 @@ body{
   padding: 1px;
   margin: 0px;
   background-color: #fff2e6;/* لون خلفيه الصفحه*/
-  /*background-repeat: repeat;*/
   background-attachment: scroll;}
 
 h3{color:  #eeccaa;}
@@ -71,8 +70,7 @@ font-size: 25px;
 
 
  ul { list-style-type: none; /* اشيل ستايل التعداد النقطي*/   margin: 0;padding: 0;}
- /*.topnav { padding:65px;/* حجم البار*/  /*position: relative; /*overflow: hidden;*/  /*background-color: #FAEBD7; } /* عشان اعبي الفراغات الي يمين و يسار البار*/
-
+ /*.topnav { padding:20px;/* حجم البار*/  /*position: relative;  background-color: #FAEBD7; }*/
  .topnav a {  padding: 20px; /* حجم البتن و القائمة النسدلة*/   font-size: 17px;}
  .topnav a.active {   background-color: #FAEBD7;/* خلفيه البار*/   color: black;}/* لون خط البار*/
 
@@ -87,9 +85,9 @@ font-size: 25px;
 
     /* ----------------------------------------الصندوق الي فيه الكلام ------------------*/
     /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_transparent_bottom*/
-    * {box-sizing: border-box;}
+    
 
-    body {font-family: Arial;font-size: 17px;}
+     body {font-family: Arial;font-size: 17px;}/*هبه شوووووووووووووووووووووووووفي*/
 
     .container { position: relative; max-width:900px ;/* حجم المربع*/margin: 0 auto;}
     .container img {vertical-align: middle;}
